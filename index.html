@@ -34,11 +34,15 @@ faster</pre>
         
     </div>
     <br>
-    
-    
-    <div id="signupPopup" class="wrapper">
-        <div id="myHeader" class="signup-form" style="display:none;">
-            <fieldset>
+    <div id="signupPopup" class="wrapper" style="display:none;">
+        
+            
+        <div id="myHeader" class="signup-form" >
+            <!-- Close Button (Cross) -->
+            <div style="text-align: end; width: 100%;">
+                <button id="closeButton" class="close-btn" style="background-color: white; color: black;cursor: pointer; width: 10%; font-size: 30px;">X</button>
+            </div>
+            <div> 
                 <h1>Sign Up for Free</h1>
                 <form action="#" class="signup-form">
                     <div class="input-group">
@@ -60,14 +64,29 @@ faster</pre>
                     </div>
                     <button type="submit">Register</button>
                 </form>
-            </fieldset>
+            </div>
         </div>
     </div>
+    
+    <script>
+        // Get the close button element
+        var closeButton = document.getElementById("closeButton");
+    
+        // Get the sign up popup element
+        var div = document.getElementById("signupPopup");
+    
+        // Add event listener to close button
+        closeButton.addEventListener("click", function() {
+            // Hide the sign up popup
+            div.style.display = "none";
+        });
+    </script>
+    
     
     
         <script>
       function toggleSignUpPopup() {
-        var div = document.getElementById("myHeader");
+        var div = document.getElementById("signupPopup");
         if (div.style.display === "none") {
           div.style.display = "block";
         } else {
