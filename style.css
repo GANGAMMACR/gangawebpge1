@@ -19,13 +19,6 @@ header{
     align-items: Right;
     z-index: 99;
 }
-
-h1{
-   font-size: 2em;
-   color: black;
-   user-select: none;
-}
-
 .navigation a{
     position: relative;
     font-size: 1.1em;
@@ -80,26 +73,11 @@ color: #162938;
     align-items: center;
     height: 100vh;
 }
-label{
-    text-align: center;
-}
-
-
-
-
-h1{
-    text-align: center;
-}
 .wrapper{
     display: flex;
     justify-content: right;
     align-items: center;
     height: 100vh;
-}
-h4{
-    text-align: right;
-    color: white;
-    padding-left: 150px;
 }
 #signupPopup {
     text-align: center;
