@@ -5,7 +5,16 @@ body{
     justify-content: center;
     align-items: centre;
     min-height: 100vh;
+    background: #665fee;
+    background: -moz-linear-gradient(45deg, #665fee 0%, #27c2de 100%);
     background:  linear-gradient(45deg, #665fee 0%, #27c2de 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#665fee',endColorstr='#27c2de',GradientType=1 );
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
     background-size: cover;
     background-position: center;
 }
