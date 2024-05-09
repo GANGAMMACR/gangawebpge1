@@ -5,7 +5,7 @@ body{
     justify-content: center;
     align-items: centre;
     min-height: 100vh;
-    background: #3373c4;
+    background: linear-gradients(45def, #665fee 0%,#27c2de 100%);
     background-size: cover;
     background-position: center;
 }
