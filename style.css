@@ -74,7 +74,7 @@ color: #162938;
 
 }
 .container{
-    display: fixed;
+    display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
