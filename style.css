@@ -19,6 +19,12 @@ header{
     align-items: Right;
     z-index: 99;
 }
+
+h1{
+    font-size: 2em; 
+   color: black; 
+   user-select: none; 
+}
 .navigation a{
     position: relative;
     font-size: 1.1em;
