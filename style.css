@@ -82,6 +82,7 @@ color: #162938;
 }
 a{
      text-decoration:none;
+     display: inline-block;
 }
 
 
