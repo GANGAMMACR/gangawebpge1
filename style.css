@@ -79,6 +79,9 @@ color: #162938;
 .mb{
     text-decoration:none;
 }
+a{
+    text-decoration:none;
+}
 .wrapper{
     display: flex;
     justify-content: right;
