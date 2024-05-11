@@ -79,9 +79,7 @@ color: #162938;
 .mb{
     text-decoration:none;
 }
-/* a{
-    text-decoration:none;
-} */
+
 .wrapper{
     display: flex;
     justify-content: right;
@@ -150,7 +148,7 @@ button:hover {
     background-color: #00CA4C;
     border-color: #00CA4C;
 }
-.btn1 {
+.btn{
     display: inline-block;
     font-weight: 300;
     text-align: center;
