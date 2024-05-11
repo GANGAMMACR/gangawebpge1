@@ -152,6 +152,7 @@ button:hover {
     background-color: #00CA4C;
     border-color: #00CA4C;
      display: inline-block;
+    border-radius: .5rem;
 }
 .btn-1{
     display: inline-block;
