@@ -73,12 +73,17 @@ color: #162938;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     
 }
 .mb{
-    text-decoration:none;
+    
+    
+    
 }
+a{
+     text-decoration:none;
+}
+
 
 .wrapper{
     display: flex;
