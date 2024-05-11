@@ -73,7 +73,7 @@ color: #162938;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    height: 70vh;
 }
 .mb{
     text-decoration:none;
