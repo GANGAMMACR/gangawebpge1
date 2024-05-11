@@ -151,6 +151,7 @@ button:hover {
     color: #fff;
     background-color: #00CA4C;
     border-color: #00CA4C;
+     display: inline-block;
 }
 .btn-1{
     display: inline-block;
