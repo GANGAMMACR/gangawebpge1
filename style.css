@@ -76,6 +76,9 @@ color: #162938;
     height: 100vh;
     
 }
+.mb{
+    text-decoration:none;
+}
 .wrapper{
     display: flex;
     justify-content: right;
